@@ -64,5 +64,7 @@ echo "@reiminami:registry=https://npm.pkg.github.com" >> .npmrc
 
 
 
-呼ばれる側を更新する場合
+更新する場合
 - version を上げる
+- npm publish
+- 呼ぶ側でnpm install?
