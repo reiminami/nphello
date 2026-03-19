@@ -13,6 +13,8 @@ npm init -y
 "name": "@reiminami/nphello",
 // メインファイル
 "main": "src/index.js",
+// 今回の場合モジュールのため
+"type": "module",
 // リポジトリ内容 (url はクローンする際のURL)
 "repository": {
   "type": "git",
@@ -59,3 +61,8 @@ commit
 
 使う側:
 echo "@reiminami:registry=https://npm.pkg.github.com" >> .npmrc
+
+
+
+呼ばれる側を更新する場合
+- version を上げる
